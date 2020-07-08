@@ -24,7 +24,7 @@ function Hero() {
         </p>
         <img
           alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
+          className="block  mx-auto mb-8"
           src={catAndHumanIllustration}
         />
 
