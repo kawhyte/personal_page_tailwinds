@@ -5,9 +5,10 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `KW`,
+    description: `Kenny Whyte Portfolio`,
+    author: `@IAmKennyWhyte`,
+    year:`2020`
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -36,6 +37,23 @@ module.exports = {
         ],
       },
     },
+    // {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     name: "fonts",
+    //     path: `${__dirname}/src/fonts/`
+    //   }
+    // },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Krubuler"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
+
     `gatsby-plugin-offline`,
   ],
 };

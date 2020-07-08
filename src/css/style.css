@@ -3,3 +3,23 @@
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
+
+
+/* @font-face {
+    font-family: Krubuler;
+    font-weight: 400;
+    font-style: normal;
+    src: url("Krabuler-Regular.woff2") format("woff2"), url("Krabuler-Regular.woff") format("woff");
+    font-display: swap;
+  } */
+
+  .bg-custom-orange-400 {
+    --bg-opacity: 1;
+    background-color: #F79767;
+    background-color: rgba(247,151,103, var(--bg-opacity));
+}
+  .bg-custom-green-200 {
+    --bg-opacity: 1;
+    background-color: #D1EADA;
+    background-color: rgba(209,234,218, var(--bg-opacity));
+}

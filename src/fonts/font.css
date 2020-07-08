@@ -1,0 +1,24 @@
+/* @font-face {
+    font-family: "Lato";
+    src: url("Lato-Regular.otf");
+  }
+
+  @font-face {
+    font-family: "Dank Mono";
+    src: url("DankMono-Regular.otf");
+  } */
+
+  @font-face {
+    font-family: "Krubuler";
+
+    src: url("Krabuler-Regular.woff2") format("woff2"), url("Krabuler-Regular.woff") format("woff");
+    
+  }
+
+  .font-k {
+    font-family: "Krubuler";
+
+    src: url("Krabuler-Regular.woff2") format("woff2"), url("Krabuler-Regular.woff") format("woff");
+
+    /* font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+}

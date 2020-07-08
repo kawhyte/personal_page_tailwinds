@@ -10,6 +10,7 @@
     "gatsby-plugin-postcss": "2.3.9",
     "gatsby-plugin-react-helmet": "3.3.9",
     "gatsby-plugin-sharp": "2.6.18",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
