@@ -1,11 +1,21 @@
 import React from "react";
 
-function Projects() {
+function Section() {
 	return (
+		<section className='bg-custom-green-200'>
+			<div className='flex justify-between mx-12'>
+				<section className='w-1/4 bg-gray-400'>area1</section>
+				<section className='w-2/4'>
+					<div className='flex flex-col justify-center items-center border-black bg-custom-orange-400 rounded-lg m-4'>
+						<h1 className='font-k text-5xl uppercase '> Science Class</h1>
 
-<section className="bg-custom-green-200"> 
+						<p className=' text-xl text-white '>area2</p>
+					</div>
+				</section>
+				<section className='w-1/4 bg-gray-400'>area3</section>
+			</div>
 
-		<div className='bg-pink-300  m-2 pl-3 gap-4 mx-auto container grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4'>
+			{/* <div className='bg-pink-300  m-2 pl-3 gap-4 mx-auto container grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4'>
 			<div className=' bg-red-700 '>
 				<h1 className='font-k text-5xl'>Personal Projects</h1>
 				<p className='text-normal text-md'>
@@ -68,9 +78,9 @@ function Projects() {
 					</span>
 				</div>
 			</div>
-		</div>
-    </section>
+		</div> */}
+		</section>
 	);
 }
 
-export default Projects;
+export default Section;

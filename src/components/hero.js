@@ -1,5 +1,7 @@
 import React from 'react'
-import catAndHumanIllustration from "../images/open-peeps.png";
+// import catAndHumanIllustration from "../images/flame-teamwork.png";
+// import moonManIllustration from "../images/flame-759.png";
+import planetIllustration from "../images/open-peeps.png";
 
 function Hero() {
     return (
@@ -22,12 +24,27 @@ function Hero() {
           </a> */}
           {/* , a utility-first CSS framework. */}
         </p>
+
+        <div className="flex justify-between"> 
+        {/* <img
+          alt="Cat and human sitting on a couch"
+          className="block mx-auto mb-8  w-48 h-48 h-"
+          src={catAndHumanIllustration}
+          
+          
+        /> */}
         <img
           alt="Cat and human sitting on a couch"
           className="block  mx-auto mb-8"
-          src={catAndHumanIllustration}
+          
+          src={planetIllustration}
         />
-
+        {/* <img
+          alt="Cat and human sitting on a couch"
+          className="block  mx-auto mb-8 w-48 h-48  "
+          src={moonManIllustration}
+        /> */}
+</div>
         
 
       </section>

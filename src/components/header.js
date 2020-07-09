@@ -18,12 +18,12 @@ function Header() {
       <div className="flex flex-wrap items-center justify-between max-w-6xl p-4 mx-auto md:p-8">
         <Link to="/">
           <h1 className="flex items-center text-black no-underline">
-          <img
+          {/* <img
               className="ml-6 h-10 w-10"
               src="https://res.cloudinary.com/babyhulk/image/upload/w_70,h_70,f_auto/v1589318555/hero-image/avatar-01.png"
               // src="https://res.cloudinary.com/babyhulk/image/upload/w_70,h_70,f_auto/v1589318555/hero-image/fist-01.png"
               alt="Family"
-            />
+            /> */}
             <span className="text-xl font-bold tracking-tight">
               {site.siteMetadata.title}
             </span>
