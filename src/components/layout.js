@@ -3,7 +3,7 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import Projects from "./projects";
-// import Section from "./section";
+import Section from "./section";
 
 function Layout({ children }) {
 	return (
@@ -13,8 +13,8 @@ function Layout({ children }) {
 			<main className='flex-1 w-full max-w-6xl px-4 py-4 mx-auto md:px-8 md:py-4'>
 				{children}
 			</main>
-			{/* <Section /> */}
 			<Projects />
+			<Section />
 
 			<Footer />
 		</div>

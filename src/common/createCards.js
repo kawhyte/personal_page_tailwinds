@@ -7,6 +7,14 @@ export function createCards(projects) {
 	return projects.map((project, i) => (
 		// console.log("node.data.title ", project.node.data.title)
 
-		<Card key={i} id={project.node.data.id}  title={project.node.data.title} description={project.node.data.description} technology= {project.node.data.technology}/>
+		<Card
+			key={i}
+			id={project.node.data.id}
+			title={project.node.data.title}
+			description={project.node.data.description}
+			technology={project.node.data.technology}
+			github_url={project.node.data.github}
+			demo_url={project.node.data.demo}
+		/>
 	));
 }
