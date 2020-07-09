@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import catAndHumanIllustration from "../images/car.png";
 let bgColor = "";
+let isDisabled = ""
 
 function Card({ title, id, description, technology, github_url, demo_url }) {
 	console.log(title);
@@ -15,6 +16,12 @@ function Card({ title, id, description, technology, github_url, demo_url }) {
 		bgColor = "bg-custom-green";
 	}
 
+	if (demo_url === null ) {
+		isDisabled = " cursor-not-allowed opacity-50 bg-gray-500 text-gray-300 "
+	} else {
+		isDisabled = " text-gray-900 hover:bg-black hover:text-white hover:border-transparent "
+	}
+	// demo_url === null ? ""
 	return (
 		<>
 			<section
@@ -39,7 +46,7 @@ function Card({ title, id, description, technology, github_url, demo_url }) {
 				
 				<div className='bg-gray-100'>
 
-					<div className='flex justify-start p-4 border-t border-gray-300 '>
+					<div className='flex justify-center p-4 border-t border-gray-300 '>
 						<a href={github_url} target='_blank' rel='noopener noreferrer'>
 							<button className='mr-12 bg-white hover:bg-black ttext-gray-900 font-semibold hover:text-white py-2 px-4 border border-gray-500  hover:border-transparent rounded'>
 								Github
@@ -47,7 +54,7 @@ function Card({ title, id, description, technology, github_url, demo_url }) {
 						</a>
 						<a href={demo_url} target='_blank' rel='noopener noreferrer'>
 							{" "}
-							<button className=' bg-white hover:bg-black text-gray-900 font-semibold hover:text-white py-2 px-4 border  border-gray-500  hover:border-transparent rounded'>
+							<button className={' bg-white  font-semibold  py-2 px-4 border  border-gray-500   rounded' + isDisabled}>
 								Demo
 							</button>
 						</a>
