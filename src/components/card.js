@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import catAndHumanIllustration from "../images//flame-759.png";
+import catAndHumanIllustration from "../images/car.png";
 let bgColor = "";
 
 function Card({ title, id, description, technology, github_url, demo_url }) {
@@ -19,34 +19,35 @@ function Card({ title, id, description, technology, github_url, demo_url }) {
 		<>
 			<section
 				className={
-					"bg-white shadow-xl overflow-hidden w-5/6 sm:w-full flex flex-col  rounded-lg mx-auto container "
+					" justify-between bg-white shadow-md overflow-hidden w-5/6 sm:w-full flex flex-col  rounded-lg mx-auto container "
 				}>
-				<div className={"mx-full " + bgColor}>
-					<p className='p-5 text-2xl font-k uppercase'>{title}</p>
+				<div className={" border-b border-gray-300 mx-full " + bgColor}>
+					<p className='pt-5 pl-5 text-2xl font-k uppercase'>{title}</p>
 
 					<div>
 						<img
 							alt='Cat and human sitting on a couch'
-							className='block mx-auto mb-4   w-40 h-40'
+							className='block mx-auto mb-0 h-auto px-20 py-4'
 							src={catAndHumanIllustration}
 						/>
 					</div>
 				</div>
-				<div className=''>
-					<div className='p-5 break-words'>{description}</div>
-					<div className='p-5 break-words'>{technology}</div>
 
-					<div className='flex justify-center p-4 '>
-						<a href={github_url}  target="_blank"
-              rel="noopener noreferrer">
-							<button className='mr-12 bg-white hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded'>
+
+					<div className='px-5 pt-3 pb-3 break-words text-gray-900 font-sans text-md'>{description}</div>
+					<div className='px-5 pt-2 pb-3 break-words text-gray-900 font-sans text-sm'>{technology}</div>
+				
+				<div className='bg-gray-100'>
+
+					<div className='flex justify-start p-4 border-t border-gray-300 '>
+						<a href={github_url} target='_blank' rel='noopener noreferrer'>
+							<button className='mr-12 bg-white hover:bg-black ttext-gray-900 font-semibold hover:text-white py-2 px-4 border border-gray-500  hover:border-transparent rounded'>
 								Github
 							</button>
 						</a>
-						<a href={demo_url}  target="_blank"
-              rel="noopener noreferrer">
+						<a href={demo_url} target='_blank' rel='noopener noreferrer'>
 							{" "}
-							<button className=' bg-white hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded'>
+							<button className=' bg-white hover:bg-black text-gray-900 font-semibold hover:text-white py-2 px-4 border  border-gray-500  hover:border-transparent rounded'>
 								Demo
 							</button>
 						</a>

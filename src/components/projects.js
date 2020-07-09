@@ -32,8 +32,8 @@ function Projects() {
 	let projects = createCards(state);
 
 	return (
-		<section className='bg-gray-100 pb-12'>
-			<div className='container sm:mx-auto flex justify-between items-end mb-2 mt-6 m-2  '>
+		<section className='bg-white pb-12'>
+			<div className='container sm:mx-auto flex justify-between items-end mb-2 mt-6  '>
 				<p className='font-k text-2xl uppercase mb-6'>Personal Projects</p>
 
 				<div className='flex'>
