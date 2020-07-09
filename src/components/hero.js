@@ -7,10 +7,10 @@ function Hero() {
     return (
         <section className="text-center">
 
-        <h2 className="inline-block mb-0 text-4xl md:text-6xl font-k pr-3">
+        <p className=" mb-0 text-4xl md:text-6xl font-k pr-3 leading-none">
         Hi there!  
-        </h2>
-        <h2 className="inline-block mb-0 text-4xl md:text-6xl font-k">
+        </p>
+        <h2 className="inline-block mb-4 text-4xl md:text-6xl font-k leading-none">
         Welcome to Kenny&#39;s World.
 
         </h2>
