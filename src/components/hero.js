@@ -8,7 +8,7 @@ function Hero() {
         <section className="text-center">
 
         <h2 className="inline-block p-3 mb-0 text-6xl font-k">
-        Hi there, I’m Kenny!
+        Hi there, Welcome to Kenny&#39;s World!
         </h2>
 
 

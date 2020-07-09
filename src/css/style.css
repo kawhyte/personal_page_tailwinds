@@ -23,6 +23,16 @@
     background-color: #D1EADA;
     background-color: rgba(209,234,218, var(--bg-opacity));
 }
+  .text-custom-orange{
+    --bg-opacity: 1;
+    color: #F79767;
+    color: rgba(247,151,103, var(--bg-opacity));
+}
+  .text-custom-green {
+    --bg-opacity: 1;
+    color: #D1EADA;
+    color: rgba(209,234,218, var(--bg-opacity));
+}
 
 .font-k {
   font-family: "Krubuler";

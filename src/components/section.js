@@ -1,35 +1,58 @@
 import React from "react";
 // import photo from "../images/bubble.png";
+import catAndHumanIllustration from "../images//flame-759.png";
 
 function Section() {
 	return (
-		<section className='bg-custom-green-200'>
+		<section className='bg-custom-green-20'>
 			<div className='flex justify-between mx-12'>
-				<section className='w-1/4 bg-gray-400'>area1</section>
-				<section className='w-2/4 h-auto m-5'>
-					{/* <div
-						className='flex flex-col mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative'
-						style={{ height: "7em", width: "" }}>
+				<section className='w-1/3 flex flex-col justify-between m-4 rounded-lg bg-custom-green-200'>
+					<p className="p-5 text-2xl font-k">Look to the sky</p>
+					<div>
 						<img
-							src={photo}
-							className='absolute left-0 top-0 w-1/2 h-1/2 z-0 object-cover '
-							alt='Black Lives Matter' />
-							<div className='p-4 absolute bottom-0 left-0 z-20 bg-red-400'>
-								<h2 className='text-4xl font-semibold text-gray-100 leading-tight'>
-									#BlackLivesMatter
-								</h2>
-							</div>
-						
-					</div> */}
-
-					
-					<div className='flex flex-col justify-center items-center border-black bg-custom-orange-400 rounded-lg p-12'>
-						<h1 className='font-k text-5xl uppercase'> Science Class</h1>
-
-						<p className=' text-xl text-white '>area2</p>
-					</div> 
+							alt='Cat and human sitting on a couch'
+							className='block mx-auto mb-4   w-40 h-40'
+							src={catAndHumanIllustration}
+						/>
+					</div>
+					<div className="p-5 break-words">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud
+					</div>
 				</section>
-				<section className='w-1/4 bg-gray-400'>area3</section>
+				<section className='w-1/3 flex flex-col justify-between m-4 rounded-lg bg-custom-orange-400'>
+					<p className="p-5 text-2xl font-k">Code</p>
+					<div>
+						<img
+							alt='Cat and human sitting on a couch'
+							className='block mx-auto mb-4   w-40 h-40'
+							src={catAndHumanIllustration}
+						/>
+					</div>
+					<div className="p-5 break-words">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud
+					</div>
+				</section>
+				<section className='w-1/3 flex flex-col justify-between m-4 rounded-lg bg-custom-green-200'>
+					<p className="p-5 text-2xl font-k">Mario, Zelda & Metriod</p>
+					<div>
+						<img
+							alt='Cat and human sitting on a couch'
+							className='block mx-auto mb-4   w-40 h-40'
+							src={catAndHumanIllustration}
+						/>
+					</div>
+					<div className="p-5 break-words">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud
+					</div>
+				</section>
+	
+				
 			</div>
 
 			{/* <div className='bg-pink-300  m-2 pl-3 gap-4 mx-auto container grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4'>
