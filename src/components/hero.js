@@ -7,12 +7,16 @@ function Hero() {
     return (
         <section className="text-center">
 
-        <h2 className="inline-block p-3 mb-0 text-6xl font-k">
-        Hi there, Welcome to Kenny&#39;s World!
+        <h2 className="inline-block mb-0 text-4xl md:text-6xl font-k pr-3">
+        Hi there!  
+        </h2>
+        <h2 className="inline-block mb-0 text-4xl md:text-6xl font-k">
+        Welcome to Kenny&#39;s World.
+
         </h2>
 
 
-        <p className="leading-loose mb-10 text-md text-xl">
+        <p className="leading-loose sm:text-sm mb-10 md:text-lg ">
         Software Engineer | Observational Astronomer | Nintendo Enthusiast {` `}
           {/* <a
             className="font-bold text-gray-900 no-underline"
@@ -35,7 +39,7 @@ function Hero() {
         /> */}
         <img
           alt="Cat and human sitting on a couch"
-          className="block  mx-auto mb-8"
+          className="block  mx-auto mb-8 h-64 md:h-auto"
           
           src={planetIllustration}
         />

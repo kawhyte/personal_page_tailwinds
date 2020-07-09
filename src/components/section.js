@@ -4,9 +4,9 @@ import catAndHumanIllustration from "../images//flame-759.png";
 
 function Section() {
 	return (
-		<section className='bg-custom-green-20 mb-10 max-w-6xl mx-auto'>
-			<div className='flex justify-between mx-12'>
-				<section className='w-1/3 flex flex-col justify-between m-4 rounded-lg bg-custom-green-200'>
+		<section className='bg-custom-green-20 max-w-6xl mx-auto mb-16'>
+			<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3'>
+				<section className=' m-4 rounded-lg bg-custom-green-200'>
 					<p className='p-5 text-2xl font-k uppercase'>Code</p>
 					<div>
 						<img
@@ -21,7 +21,7 @@ function Section() {
 						ad minim veniam, quis nostrud
 					</div>
 				</section>
-				<section className='w-1/3 flex flex-col justify-between m-4 rounded-lg bg-custom-orange-400'>
+				<section className='m-4 rounded-lg bg-custom-orange-400'>
 					<p className='p-5 text-2xl font-k uppercase'>Look to the sky</p>
 					<div>
 						<img
@@ -36,7 +36,7 @@ function Section() {
 						ad minim veniam, quis nostrud
 					</div>
 				</section>
-				<section className='w-1/3 flex flex-col justify-between m-4 rounded-lg bg-custom-green-200'>
+				<section className=' m-4 rounded-lg bg-custom-green-200'>
 					<p className='p-5 text-2xl font-k uppercase'>
 						Mario, Zelda & Metriod
 					</p>
