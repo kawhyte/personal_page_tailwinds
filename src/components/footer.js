@@ -19,7 +19,7 @@ function Footer() {
           <p>
             <a
               className="font-bold text-white no-underline"
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
+              href="https://github.com/kawhyte"
               target="_blank"
               rel="noopener noreferrer"
             >

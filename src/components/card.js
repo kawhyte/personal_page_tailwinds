@@ -37,12 +37,14 @@ function Card({ title, id, description, technology, github_url, demo_url }) {
 					<div className='p-5 break-words'>{technology}</div>
 
 					<div className='flex justify-center p-4 '>
-						<a href={github_url}>
+						<a href={github_url}  target="_blank"
+              rel="noopener noreferrer">
 							<button className='mr-12 bg-white hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded'>
 								Github
 							</button>
 						</a>
-						<a href={demo_url}>
+						<a href={demo_url}  target="_blank"
+              rel="noopener noreferrer">
 							{" "}
 							<button className=' bg-white hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded'>
 								Demo
