@@ -5,7 +5,7 @@ import planetIllustration from "../images/open-peeps.png";
 
 function Hero() {
     return (
-        <section className="text-center">
+        <section className="text-center mt-2 sm:mt-8">
 
         <p className=" mb-0 text-4xl md:text-6xl font-k pr-3 leading-none">
         Hi there!  

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className="bg-custom-orange-400">
+        <footer className="bg-custom-orange">
         <nav className="flex justify-between max-w-6xl p-4 mx-auto text-sm md:p-8">
           <p className="text-white">
             Created by{` `}

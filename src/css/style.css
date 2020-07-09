@@ -13,12 +13,12 @@
     font-display: swap;
   } */
 
-  .bg-custom-orange-400 {
+  .bg-custom-orange {
     --bg-opacity: 1;
     background-color: #F79767;
     background-color: rgba(247,151,103, var(--bg-opacity));
 }
-  .bg-custom-green-200 {
+  .bg-custom-green {
     --bg-opacity: 1;
     background-color: #D1EADA;
     background-color: rgba(209,234,218, var(--bg-opacity));
