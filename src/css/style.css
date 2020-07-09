@@ -23,3 +23,11 @@
     background-color: #D1EADA;
     background-color: rgba(209,234,218, var(--bg-opacity));
 }
+
+.font-k {
+  font-family: "Krubuler";
+
+  src: url("../fonts/Krabuler-Regular.woff2") format("woff2"), url("../fonts/Krabuler-Regular.woff") format("woff");
+
+  /* font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+}

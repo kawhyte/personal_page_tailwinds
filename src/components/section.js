@@ -1,16 +1,33 @@
 import React from "react";
+// import photo from "../images/bubble.png";
 
 function Section() {
 	return (
 		<section className='bg-custom-green-200'>
 			<div className='flex justify-between mx-12'>
 				<section className='w-1/4 bg-gray-400'>area1</section>
-				<section className='w-2/4'>
-					<div className='flex flex-col justify-center items-center border-black bg-custom-orange-400 rounded-lg m-4'>
-						<h1 className='font-k text-5xl uppercase '> Science Class</h1>
+				<section className='w-2/4 h-auto m-5'>
+					{/* <div
+						className='flex flex-col mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative'
+						style={{ height: "7em", width: "" }}>
+						<img
+							src={photo}
+							className='absolute left-0 top-0 w-1/2 h-1/2 z-0 object-cover '
+							alt='Black Lives Matter' />
+							<div className='p-4 absolute bottom-0 left-0 z-20 bg-red-400'>
+								<h2 className='text-4xl font-semibold text-gray-100 leading-tight'>
+									#BlackLivesMatter
+								</h2>
+							</div>
+						
+					</div> */}
+
+					
+					<div className='flex flex-col justify-center items-center border-black bg-custom-orange-400 rounded-lg p-12'>
+						<h1 className='font-k text-5xl uppercase'> Science Class</h1>
 
 						<p className=' text-xl text-white '>area2</p>
-					</div>
+					</div> 
 				</section>
 				<section className='w-1/4 bg-gray-400'>area3</section>
 			</div>
