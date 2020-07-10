@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 import { createCards } from "../common/createCards";
-import arrow from "../images/icons/icons8-forward-small.png";
+// import arrow from "../images/icons/icons8-forward-small.png";
 
 function Projects() {
 	const data = useStaticQuery(graphql`
@@ -16,6 +16,7 @@ function Projects() {
 							id
 							image
 							technology
+							technology_array
 							title
 						}
 						recordId
@@ -36,7 +37,7 @@ function Projects() {
 			<div className='container sm:mx-auto flex justify-between items-end mb-2 mt-6  '>
 				<p className='font-k text-2xl uppercase mb-6'>Personal Projects</p>
 
-				<div className='flex'>
+				{/* <div className='flex'>
 					<Link to={`projects`}>
 						<p className='text-sm text-blue-600 pb-1 mb-6 '>
 							View All Projects
@@ -45,7 +46,7 @@ function Projects() {
 					<Link to={`projects`}>
 						<img src={arrow} width='20' height='1' alt='arrow' />
 					</Link>
-				</div>
+				</div> */}
 
 				{/* <p className='text-normal text-md'>
 					Lorem Ipsum is simply dummy text of the printing and typesetting

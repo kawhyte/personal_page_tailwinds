@@ -15,6 +15,7 @@ export function createCards(projects) {
 			technology={project.node.data.technology}
 			github_url={project.node.data.github}
 			demo_url={project.node.data.demo}
+			technology_array = {project.node.data.technology_array}
 		/>
 	));
 }

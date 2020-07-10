@@ -2,9 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import catAndHumanIllustration from "../images/car.png";
 let bgColor = "";
+let border = "";
 let isDisabled = ""
 
-function Card({ title, id, description, technology, github_url, demo_url }) {
+function Card({ title, id, description, technology, technology_array, github_url, demo_url }) {
 	console.log(title);
 	console.log(id);
 	console.log(description);
@@ -12,8 +13,10 @@ function Card({ title, id, description, technology, github_url, demo_url }) {
 
 	if (id % 2 === 0) {
 		bgColor = "bg-custom-orange";
+		border = "border-orange-300"
 	} else {
 		bgColor = "bg-custom-green";
+		border = "border-green-300"
 	}
 
 	if (demo_url === null ) {
@@ -42,8 +45,30 @@ function Card({ title, id, description, technology, github_url, demo_url }) {
 
 
 					<div className='px-5 pt-3 pb-3 break-words text-gray-900 font-sans text-md'>{description}</div>
-					<div className='px-5 pt-2 pb-3 break-words text-gray-900 font-sans text-sm'>{technology}</div>
+
+
+					{/* <div className='px-5 pt-2 pb-3 break-words text-gray-900 font-sans text-md'>{technology}</div> */}
 				
+
+					<div className='flex items-center justify-between leading-none p-2 md:p-2 '>
+					<div className='p-1'>
+						<div className='flex flex-wrap items-center w-full mt-1 mb-2'>
+							{technology_array.map((tech, i) => {
+								return (
+									<span
+										key={i}
+										target='_blank'
+										rel='noopener noreferrer'
+										className={'text-xs font-semibold inline-block py-1 px-2 border rounded uppercase last: m-1 mr-1 ' + border}>
+										{tech}
+									</span>
+								);
+							})}
+						</div>
+					</div>
+				</div>
+
+
 				<div className='bg-gray-100'>
 
 					<div className='flex justify-center p-4 border-t border-gray-300 '>
@@ -115,8 +140,9 @@ Card.propTypes = {
 	title: PropTypes.string.isRequired,
 	id: PropTypes.number.isRequired,
 	description: PropTypes.string.isRequired,
-	technology: PropTypes.string.isRequired,
 	github_url: PropTypes.string.isRequired,
+	technology: PropTypes.string.isRequired,
+	technology_array: PropTypes.string.isRequired,
 	demo_url: PropTypes.string.isRequired,
 };
 
