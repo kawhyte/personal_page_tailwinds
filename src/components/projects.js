@@ -18,6 +18,7 @@ function Projects() {
 							technology
 							technology_array
 							title
+							image
 						}
 						recordId
 					}
@@ -33,7 +34,7 @@ function Projects() {
 	let projects = createCards(state);
 
 	return (
-		<section className='bg-white pb-12'>
+		<section className='bg-green-100 pb-12'>
 			<div className='container sm:mx-auto flex justify-between items-end mb-2 mt-6  '>
 				<p className='font-k text-2xl uppercase mb-6'>Personal Projects</p>
 
@@ -54,7 +55,7 @@ function Projects() {
 					since the 1500s
 				</p> */}
 			</div>
-			<div className='max-w-6xl m-2 pl-3 gap-6 container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3'>
+			<div className='max-w-6xl m-2 pl-3 gap-6 container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3'>
 				{projects}
 			</div>
 		</section>

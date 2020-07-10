@@ -50,22 +50,36 @@ function Header() {
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
+          {
+            route: `/about`,
+            title: `CodePen`,
+            type: `external`
+          },
+            {
+              route: `/about`,
+              title: `Blog`,
+              type: `external`
+            },
             {
               route: `/about`,
               title: `About`,
+              type: `internal`
             },
             {
               route: `/contact`,
               title: `Contact`,
+              type: `internal`
             },
           ].map((link) => (
+
+            link.type ==="internal" ?
             <Link
               className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6"
               key={link.title}
               to={link.route}
             >
               {link.title}
-            </Link>
+            </Link>: ""
           ))}
         </nav>
       </div>

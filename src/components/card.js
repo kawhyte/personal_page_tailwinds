@@ -1,15 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
-import catAndHumanIllustration from "../images/car.png";
+// import catAndHumanIllustration from "../images/car.png";
 let bgColor = "";
 let border = "";
 let isDisabled = ""
 
-function Card({ title, id, description, technology, technology_array, github_url, demo_url }) {
+function Card({ title, id, description, technology, technology_array, github_url, demo_url, image }) {
 	console.log(title);
 	console.log(id);
 	console.log(description);
 	console.log(technology);
+	console.log(image);
+	console.log(bgColor);
+
 
 	if (id % 2 === 0) {
 		bgColor = "bg-custom-orange";
@@ -31,8 +34,19 @@ function Card({ title, id, description, technology, technology_array, github_url
 				className={
 					" justify-between bg-white shadow-md overflow-hidden w-5/6 sm:w-full flex flex-col  rounded-lg mx-auto container "
 				}>
-				<div className={" border-b border-gray-300 mx-full " + bgColor}>
-					<p className='pt-5 pl-5 text-2xl font-k uppercase'>{title}</p>
+
+
+<div className="bg-cover bg-center h-56 p-4" style={{backgroundImage: `url(${image})`}}>
+                        <div className="flex justify-end">
+                            <svg className="h-6 w-6 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12.76 3.76a6 6 0 0 1 8.48 8.48l-8.53 8.54a1 1 0 0 1-1.42 0l-8.53-8.54a6 6 0 0 1 8.48-8.48l.76.75.76-.75zm7.07 7.07a4 4 0 1 0-5.66-5.66l-1.46 1.47a1 1 0 0 1-1.42 0L9.83 5.17a4 4 0 1 0-5.66 5.66L12 18.66l7.83-7.83z"></path>
+                            </svg>
+                        </div>
+                    </div>
+
+
+
+				{/* <div className={" border-b border-gray-300 mx-full " + bgColor}>
 
 					<div>
 						<img
@@ -41,17 +55,21 @@ function Card({ title, id, description, technology, technology_array, github_url
 							src={catAndHumanIllustration}
 						/>
 					</div>
-				</div>
+				</div> */}
 
 
-					<div className='px-5 pt-3 pb-3 break-words text-gray-900 font-sans text-md'>{description}</div>
+				<div className="flex flex-col items-start border-b border-gray-300 "> 
+					<p className='pt-4 pl-5 text-2xl text-gray-900 font-normal'>{title}</p>
+
+
+					<div className='px-5 pt-2 pb-5 break-words text-gray-700 text-md font-light'>{description}</div>
 
 
 					{/* <div className='px-5 pt-2 pb-3 break-words text-gray-900 font-sans text-md'>{technology}</div> */}
-				
+				</div>
 
-					<div className='flex items-center justify-between leading-none p-2 md:p-2 '>
-					<div className='p-1'>
+					<div className='flex items-center justify-between leading-none py-2 px-1 md:px-3 '>
+				
 						<div className='flex flex-wrap items-center w-full mt-1 mb-2'>
 							{technology_array.map((tech, i) => {
 								return (
@@ -59,27 +77,27 @@ function Card({ title, id, description, technology, technology_array, github_url
 										key={i}
 										target='_blank'
 										rel='noopener noreferrer'
-										className={'text-xs font-semibold inline-block py-1 px-2 border rounded uppercase last: m-1 mr-1 ' + border}>
+										className={'font-light text-xs inline-block py-1 px-2 border rounded uppercase last: m-1 mr-1 ' + border}>
 										{tech}
 									</span>
 								);
 							})}
 						</div>
-					</div>
+					
 				</div>
-
+				
 
 				<div className='bg-gray-100'>
 
 					<div className='flex justify-center p-4 border-t border-gray-300 '>
 						<a href={github_url} target='_blank' rel='noopener noreferrer'>
-							<button className='mr-12 bg-white hover:bg-black ttext-gray-900 font-semibold hover:text-white py-2 px-4 border border-gray-500  hover:border-transparent rounded'>
+							<button className='mr-12 bg-white hover:bg-black text-gray-900 font-normal hover:text-white py-2 px-4 border border-gray-500  hover:border-transparent rounded'>
 								Github
 							</button>
 						</a>
 						<a href={demo_url} target='_blank' rel='noopener noreferrer'>
 							{" "}
-							<button className={' bg-white  font-semibold  py-2 px-4 border  border-gray-500   rounded' + isDisabled}>
+							<button className={' bg-white py-2 px-4 border  border-gray-500 font-normal   rounded' + isDisabled}>
 								Demo
 							</button>
 						</a>
@@ -142,8 +160,9 @@ Card.propTypes = {
 	description: PropTypes.string.isRequired,
 	github_url: PropTypes.string.isRequired,
 	technology: PropTypes.string.isRequired,
-	technology_array: PropTypes.string.isRequired,
-	demo_url: PropTypes.string.isRequired,
+	technology_array: PropTypes.array.isRequired,
+	demo_url: PropTypes.string,
+	image: PropTypes.string.isRequired,
 };
 
 export default Card;
