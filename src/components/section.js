@@ -1,12 +1,12 @@
 import React from "react";
 // import photo from "../images/bubble.png";
 import humanInSpaceIllustration from "../images//flame-759.png";
-import gameIllustration from "../images//flame-759.png";
-import codeIllustration from "../images//flame-759.png";
+import gameIllustration from "../images/face.png";
+import codeIllustration from "../images/code1.png";
 
 function Section() {
 	return (
-		<div className=" "> 
+		<div className="bg-green-100 "> 
 		<section className='max-w-6xl min-w-0 mx-auto mb-12 '>
 			<div className='mx-20 mt-10  sm:mx-auto grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3'>
 				<section className='m-4 rounded-lg  bg-white'>

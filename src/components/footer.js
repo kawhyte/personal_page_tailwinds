@@ -26,6 +26,23 @@ function Footer() {
               GitHub
             </a>
           </p>
+
+          <div className="text-sm py-1 text-black">
+              <span className="pr-2">Illustrations from</span>
+        
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="  hover:text-indigo-500"
+                href="https://icons8.com/"
+              >
+                icons8
+              </a>
+       
+      
+              
+        
+            </div>
         </nav>
       </footer>
     )
