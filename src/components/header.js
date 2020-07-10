@@ -50,21 +50,21 @@ function Header() {
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
-          {
-            route: `/about`,
-            title: `CodePen`,
-            type: `external`
-          },
             {
-              route: `/about`,
+              route: `https://dev.to/kawhyte`,
               title: `Blog`,
               type: `external`
             },
-            {
-              route: `/about`,
-              title: `About`,
-              type: `internal`
-            },
+          {
+            route: `https://codepen.io/kawhyte`,
+            title: `CodePen`,
+            type: `external`
+          },
+            // {
+            //   route: `/about`,
+            //   title: `About`,
+            //   type: `internal`
+            // },
             {
               route: `/contact`,
               title: `Contact`,
@@ -79,7 +79,9 @@ function Header() {
               to={link.route}
             >
               {link.title}
-            </Link>: ""
+            </Link>: 
+
+<a href={link.route} target='_blank' rel='noopener noreferrer' className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6">{link.title}</a>
           ))}
         </nav>
       </div>

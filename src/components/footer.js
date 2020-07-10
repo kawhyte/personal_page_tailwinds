@@ -2,9 +2,9 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className="bg-custom-orange">
+        <footer className="bg-orange-200">
         <nav className="flex justify-between max-w-6xl p-4 mx-auto text-sm md:p-8">
-          <p className="text-white">
+          <p className="text-black">
             Created by{` `}
             <a
               className="font-bold no-underline"
@@ -18,7 +18,7 @@ function Footer() {
 
           <p>
             <a
-              className="font-bold text-white no-underline"
+              className="font-bold text-black no-underline"
               href="https://github.com/kawhyte"
               target="_blank"
               rel="noopener noreferrer"
