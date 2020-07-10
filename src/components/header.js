@@ -81,7 +81,7 @@ function Header() {
               {link.title}
             </Link>: 
 
-<a href={link.route} target='_blank' rel='noopener noreferrer' className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6">{link.title}</a>
+<a key={link.title} href={link.route} target='_blank' rel='noopener noreferrer' className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6">{link.title}</a>
           ))}
         </nav>
       </div>
