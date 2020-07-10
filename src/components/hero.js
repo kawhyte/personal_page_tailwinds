@@ -8,10 +8,10 @@ function Hero() {
     <div className="relative "> 
 		<section className='text-center mt-2 sm:mt-8 relative z-10'>
 			<p className=' mb-0 text-4xl md:text-6xl font-k pr-3 leading-none relative z-10'>
-				Hi there!
+				Hi there,
 			</p>
 			<h2 className='inline-block mb-12 text-4xl md:text-6xl font-k leading-none relative z-10'>
-				Welcome to Kenny&#39;s World.
+				Welcome to Kenny&#39;s World!
 			</h2>
 
 			{/* <p className='leading-loose sm:text-sm mb-10 md:text-lg '>
@@ -25,11 +25,7 @@ function Hero() {
 					className='block  mx-auto mb-8 h-64 md:h-auto'
 					src={planetIllustration}
 				/>
-				{/* <img
-          alt="Cat and human sitting on a couch"
-          className="block  mx-auto mb-8 w-48 h-48  "
-          src={moonManIllustration}
-        /> */}
+
 			</div>
 
 			{/* <svg
