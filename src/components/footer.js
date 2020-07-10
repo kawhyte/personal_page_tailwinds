@@ -8,7 +8,7 @@ function Footer() {
             Created by{` `}
             <a
               className="font-bold no-underline"
-              href="https://bryant.io"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
             >
