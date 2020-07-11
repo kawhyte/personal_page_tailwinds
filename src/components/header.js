@@ -65,10 +65,15 @@ function Header() {
             //   title: `About`,
             //   type: `internal`
             // },
+            // {
+            //   route: `/contact`,
+            //   title: `Contact`,
+            //   type: `internal`
+            // },
             {
-              route: `/contact`,
-              title: `Contact`,
-              type: `internal`
+              route: `https://www.linkedin.com/in/kawhyte/`,
+              title: `Contact me on LinkedIn`,
+              type: `external`
             },
           ].map((link) => (
 

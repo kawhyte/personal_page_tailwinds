@@ -38,10 +38,7 @@ function Footer() {
               >
                 icons8
               </a>
-       
-      
-              
-        
+    
             </div>
         </nav>
       </footer>
