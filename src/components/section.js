@@ -9,7 +9,7 @@ function Section() {
 		<div className="bg-green-100 "> 
 		<section className='max-w-6xl min-w-0 mx-auto mb-12 '>
 			<div className='mx-20 mt-10  sm:mx-auto grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3'>
-				<section className='m-4 rounded-lg  bg-white'>
+				<section className='m-4 rounded-lg border bg-white shadow-lg overflow-hidden'>
 					<p className='text-lg sm:m-5 text-center md:text-2xl font-k uppercase bg-orange-100 p-1 '>Software Engineer </p>
 					<div className="hidden md:block">
 						<img
@@ -24,7 +24,7 @@ function Section() {
 
 					</div>
 				</section>
-				<section className='m-4 rounded-lg bg-white'>
+				<section className='m-4 rounded-lg border bg-white shadow-lg overflow-hidden'>
 					<p className='text-lg sm:m-5 text-center md:text-2xl font-k uppercase bg-orange-100 p-1 '>Observational Astronomer</p>
 					<div className="hidden md:block">
 						<img
@@ -38,7 +38,7 @@ function Section() {
 					<span  className="border-l-4 border-orange-300 pl-4 rounded text-left m-4 italic text-gray-700 hidden md:block"> &quot;The good thing about science is that it&apos;s true whether or not you believe in it&quot;. ~ Neil deGrasse Tyson</span> 
 					</div>
 				</section>
-				<section className='m-4 rounded-lg  bg-white'>
+				<section className='m-4 rounded-lg border bg-white shadow-lg overflow-hidden'>
 					<p className='text-lg sm:m-5 text-center md:text-2xl font-k uppercase bg-orange-100 p-1'>
 					Nintendo Enthusiast	
 					</p>
