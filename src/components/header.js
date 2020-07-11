@@ -72,7 +72,7 @@ function Header() {
             // },
             {
               route: `https://www.linkedin.com/in/kawhyte/`,
-              title: `Contact me on LinkedIn`,
+              title: `Contact me`,
               type: `external`
             },
           ].map((link) => (
