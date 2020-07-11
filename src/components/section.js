@@ -2,7 +2,7 @@ import React from "react";
 // import photo from "../images/bubble.png";
 import humanInSpaceIllustration from "../images//flame-759.png";
 import gameIllustration from "../images/face.png";
-import codeIllustration from "../images/code1.png";
+import codeIllustration from "../images/open-peeps.png";
 
 function Section() {
 	return (
@@ -14,7 +14,7 @@ function Section() {
 					<div className="hidden md:block">
 						<img
 							alt='Cat and human sitting on a couch'
-							className='block mx-auto mb-4   w-40 h-40'
+							className='block mx-auto mb-4 w-auto h-40'
 							src={codeIllustration}
 						/>
 					</div>

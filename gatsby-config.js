@@ -44,15 +44,15 @@ module.exports = {
     //     path: `${__dirname}/src/fonts/`
     //   }
     // },
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        custom: {
-          families: ["Krubuler"],
-          urls: ["/fonts/fonts.css"],
-        },
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-web-font-loader",
+    //   options: {
+    //     custom: {
+    //       families: ["Krubuler"],
+    //       urls: ["/fonts/fonts.css"],
+    //     },
+    //   },
+    // },
 
 
     {
@@ -85,6 +85,22 @@ module.exports = {
         theme_color: `#a2466c`,
         display: `standalone`,
         icon: `src/images/icons/favicon-512.png`
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+        
+          {
+            family: `Anton`,
+            variants: [`400`]
+          },
+          {
+            family: `Roboto`,
+            variants: [`400`]
+          },
+        ],
       },
     },
 

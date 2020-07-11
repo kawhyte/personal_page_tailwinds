@@ -41,3 +41,21 @@
 
   /* font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
 }
+
+
+.font-mallory {
+  font-family: "Mallory";
+
+  src: url("../fonts/Mallory-Black.ttf") format("ttf");
+
+  /* font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+}
+
+.font-Anton{
+
+  font-family: 'Anton', sans-serif;
+}
+.font-Roboto{
+
+  font-family: 'Roboto', sans-serif;
+}

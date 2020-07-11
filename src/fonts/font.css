@@ -22,3 +22,10 @@
 
     /* font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
 }
+  .font-mallory {
+    font-family: "Mallory";
+
+    src: url("Mallory-Black.ttf") format("ttf");
+
+    /* font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+}

@@ -32,19 +32,19 @@ function Card({
 		<>
 			<section
 				className={
-					"justify-between bg-white shadow-xl  overflow-hidden w-5/6 sm:w-full flex flex-col  rounded-lg mx-auto container "
+					"justify-between bg-white shadow-xl overflow-hidden w-5/6 sm:w-full flex flex-col  rounded-lg mx-auto container "
 				}>
 				<div
 					className='bg-cover bg-center h-56 p-4'
 					style={{ backgroundImage: `url(${image})` }}>
-					<div className='flex justify-end'>
+					{/* <div className='flex justify-end '>
 						<svg
-							className='h-6 w-6 text-white fill-current'
+							className='h-6 w-6 text-white fill-current '
 							xmlns='http://www.w3.org/2000/svg'
 							viewBox='0 0 24 24'>
 							<path d='M12.76 3.76a6 6 0 0 1 8.48 8.48l-8.53 8.54a1 1 0 0 1-1.42 0l-8.53-8.54a6 6 0 0 1 8.48-8.48l.76.75.76-.75zm7.07 7.07a4 4 0 1 0-5.66-5.66l-1.46 1.47a1 1 0 0 1-1.42 0L9.83 5.17a4 4 0 1 0-5.66 5.66L12 18.66l7.83-7.83z'></path>
 						</svg>
-					</div>
+					</div> */}
 				</div>
 
 				{/* <div className={" border-b border-gray-300 mx-full " + bgColor}>
@@ -96,6 +96,11 @@ function Card({
 								Github
 							</button>
 						</a>
+						{/* <a href={github_url} target='_blank' rel='noopener noreferrer'>
+							<button className='mr-12 bg-white hover:bg-black text-gray-900 font-normal hover:text-white py-2 px-4 border border-gray-500  hover:border-transparent rounded'>
+								Details
+							</button>
+						</a> */}
 						<a href={demo_url} target='_blank' rel='noopener noreferrer'>
 							{" "}
 							<button
