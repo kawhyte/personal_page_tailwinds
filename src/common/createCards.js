@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../components/card";
 
 export function createCards(projects) {
-	console.log("Pro ", projects);
 
 	let sortedPages = projects.sort(function (a, b) {
 

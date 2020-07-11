@@ -29,8 +29,6 @@ function Projects() {
 
 	const [state] = useState(data.allAirtable.edges);
 
-	console.log(state);
-
 	let projects = createCards(state);
 
 	return (

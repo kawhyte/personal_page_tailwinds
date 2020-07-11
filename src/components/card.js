@@ -1,26 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
 // import catAndHumanIllustration from "../images/car.png";
-let bgColor = "";
+// let bgColor = "";
 let border = "";
 let isDisabled = ""
 
-function Card({ title, id, description, technology, technology_array, github_url, demo_url, image }) {
-	console.log(title);
-	console.log(id);
-	console.log(description);
-	console.log(technology);
-	console.log(image);
-	console.log(bgColor);
+function Card({ title,  description,  technology_array, github_url, demo_url, image }) {
 
 
-	if (id % 2 === 0) {
-		bgColor = "bg-custom-orange";
-		border = "border-orange-300"
-	} else {
-		bgColor = "bg-custom-green";
-		border = "border-green-300"
-	}
+
+	// if (id % 2 === 0) {
+	// 	bgColor = "bg-custom-orange";
+	// 	border = "border-orange-300"
+	// } else {
+	// 	bgColor = "bg-custom-green";
+	// 	border = "border-green-300"
+	// }
 
 	if (demo_url === null ) {
 		isDisabled = " cursor-not-allowed opacity-50 bg-gray-500 text-gray-300 "
