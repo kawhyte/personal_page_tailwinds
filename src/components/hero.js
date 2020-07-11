@@ -7,15 +7,14 @@ function Hero() {
 	return (
 		<div className='pt-40 pb-56 relative'>
 			<section className='text-center mt-2 sm:mt-8 relative z-10'>
-				<h1 className='text-8xl sm:text-9xl md:text-10xl  lg:text-15xl leading-none mb-0 knockout font-k uppercase '>
-					<strong className='font-black'>Hello</strong>
+				<h1 className='text-8xl sm:text-9xl md:text-10xl  lg:text-15xl leading-none mb-0 knockout font-krubuler uppercase '>
+					<strong className='font-black'>Hello.</strong>
 
-					{/* <p> <strong className="font-black font-k uppercase">Whyte</strong></p> */}
 				</h1>
 
 				<h1>
 					{" "}
-					<span className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-orange-200 px-2 font-normal leading-none font-k uppercase'>
+					<span className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-orange-200 px-2 font-normal leading-none font-krubuler uppercase'>
 						{" "}
 						Welcome to Kenny&apos;s World{" "}
 					</span>

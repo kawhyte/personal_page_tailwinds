@@ -15,17 +15,10 @@
     
   }
 
-  .font-k {
+  .font-Krubuler {
     font-family: "Krubuler";
 
     src: url("Krabuler-Regular.woff2") format("woff2"), url("Krabuler-Regular.woff") format("woff");
-
-    /* font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
-}
-  .font-mallory {
-    font-family: "Mallory";
-
-    src: url("Mallory-Black.ttf") format("ttf");
 
     /* font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
 }

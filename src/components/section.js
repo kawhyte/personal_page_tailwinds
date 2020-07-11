@@ -10,7 +10,7 @@ function Section() {
 		<section className='max-w-6xl min-w-0 mx-auto mb-12 '>
 			<div className='mx-20 mt-10  sm:mx-auto grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3'>
 				<section className='m-4 rounded-lg border bg-white shadow-lg overflow-hidden'>
-					<p className='text-lg sm:m-5 text-center md:text-2xl font-k uppercase bg-orange-100 p-1 '>Software Engineer </p>
+					<p className='text-lg sm:m-5 text-center md:text-2xl font-krubuler uppercase bg-orange-100 p-1 '>Software Engineer </p>
 					<div className="hidden md:block">
 						<img
 							alt='Cat and human sitting on a couch'
@@ -25,7 +25,7 @@ function Section() {
 					</div>
 				</section>
 				<section className='m-4 rounded-lg border bg-white shadow-lg overflow-hidden'>
-					<p className='text-lg sm:m-5 text-center md:text-2xl font-k uppercase bg-orange-100 p-1 '>Observational Astronomer</p>
+					<p className='text-lg sm:m-5 text-center md:text-2xl font-krubuler uppercase bg-orange-100 p-1 '>Observational Astronomer</p>
 					<div className="hidden md:block">
 						<img
 							alt='Cat and human sitting on a couch'
@@ -39,7 +39,7 @@ function Section() {
 					</div>
 				</section>
 				<section className='m-4 rounded-lg border bg-white shadow-lg overflow-hidden'>
-					<p className='text-lg sm:m-5 text-center md:text-2xl font-k uppercase bg-orange-100 p-1'>
+					<p className='text-lg sm:m-5 text-center md:text-2xl font-krubuler uppercase bg-orange-100 p-1'>
 					Nintendo Enthusiast	
 					</p>
 					<div className="hidden md:block">

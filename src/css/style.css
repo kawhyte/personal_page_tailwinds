@@ -5,14 +5,6 @@
 @tailwind utilities;
 
 
-/* @font-face {
-    font-family: Krubuler;
-    font-weight: 400;
-    font-style: normal;
-    src: url("Krabuler-Regular.woff2") format("woff2"), url("Krabuler-Regular.woff") format("woff");
-    font-display: swap;
-  } */
-
   .bg-custom-orange {
     --bg-opacity: 1;
     background-color: #F79767;
@@ -34,7 +26,7 @@
     color: rgba(209,234,218, var(--bg-opacity));
 }
 
-.font-k {
+.font-krubuler {
   font-family: "Krubuler";
 
   src: url("../fonts/Krabuler-Regular.woff2") format("woff2"), url("../fonts/Krabuler-Regular.woff") format("woff");
@@ -43,13 +35,6 @@
 }
 
 
-.font-mallory {
-  font-family: "Mallory";
-
-  src: url("../fonts/Mallory-Black.ttf") format("ttf");
-
-  /* font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
-}
 
 .font-Anton{
 
