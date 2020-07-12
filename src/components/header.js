@@ -14,7 +14,7 @@ function Header() {
   `);
 
   return (
-    <header className="">
+    <header className="bg-orange-200 ">
       <div className="flex flex-wrap items-center justify-between max-w-6xl p-4 mx-auto md:p-8">
         <Link to="/">
           <h1 className="flex items-center text-black no-underline">
@@ -84,14 +84,14 @@ function Header() {
 
             link.type ==="internal" ?
             <Link
-              className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6"
+              className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6 hover:text-gray-500 px-2"
               key={link.title}
               to={link.route}
             >
               {link.title}
             </Link>: 
 
-<a key={link.title} href={link.route} target='_blank' rel='noopener noreferrer' className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6">{link.title}</a>
+<a key={link.title} href={link.route} target='_blank' rel='noopener noreferrer' className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6 hover:text-gray-500 px-2">{link.title}</a>
           ))}
         </nav>
       </div>

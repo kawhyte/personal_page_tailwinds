@@ -37,7 +37,7 @@ function Card({
 					"justify-between bg-white shadow-xl overflow-hidden w-5/6 sm:w-full flex flex-col  rounded-lg mx-auto container "
 				}>
 				<div
-					className='bg-cover bg-center h-56 p-4'
+					className='bg-cover bg-center h-56  p-4'
 					style={{ backgroundImage: `url(${image})` }}>
 					{/* <div className='flex justify-end '>
 						<svg

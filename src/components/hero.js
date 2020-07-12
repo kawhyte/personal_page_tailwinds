@@ -6,7 +6,7 @@ import React from "react";
 function Hero() {
 	return (
 		<div className='pt-40 pb-56 relative'>
-			<section className='text-center mt-2 sm:mt-8 relative z-10'>
+			<section className='text-center mt-2 sm:mt-8 relative z-50'>
 				<h1 className='text-8xl sm:text-9xl md:text-10xl  lg:text-15xl leading-none mb-0 knockout font-krubuler uppercase '>
 					<strong className='text-7xl font-black sm:hidden'>
 						Greetings
@@ -57,7 +57,7 @@ function Hero() {
 			</div> */}
 			</section>
 			<svg
-				className='absolute left-0 top-0 w-full h-full z-0'
+				className='absolute left-0 top-0 w-full h-full z-20'
 				xmlns='http://www.w3.org/2000/svg'
 				viewBox='0 0 645.55 419.74'
 				preserveAspectRatio='xMinYMid slice'>
