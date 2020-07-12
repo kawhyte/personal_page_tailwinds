@@ -1,8 +1,8 @@
 import React from "react";
 // import photo from "../images/bubble.png";
-import humanInSpaceIllustration from "../images//flame-759.png";
-import gameIllustration from "../images/face.png";
-import codeIllustration from "../images/open-peeps.png";
+import humanInSpaceIllustration from "../images/space.webp";
+import gameIllustration from "../images/game-face.webp";
+import codeIllustration from "../images/coder.webp";
 
 function Section() {
 	return (
