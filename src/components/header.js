@@ -52,12 +52,17 @@ function Header() {
           {[
             {
               route: `https://dev.to/kawhyte`,
-              title: `Blog`,
+              title: `Dev.to`,
               type: `external`
             },
           {
             route: `https://codepen.io/kawhyte`,
             title: `CodePen`,
+            type: `external`
+          },
+          {
+            route: `https://github.com/kawhyte`,
+            title: `Github`,
             type: `external`
           },
             // {

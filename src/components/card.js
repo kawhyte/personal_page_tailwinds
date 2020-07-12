@@ -12,14 +12,16 @@ function Card({
 	github_url,
 	demo_url,
 	image,
+	id
 }) {
-	// if (id % 2 === 0) {
-	// 	bgColor = "bg-custom-orange";
-	// 	border = "border-orange-300"
-	// } else {
-	// 	bgColor = "bg-custom-green";
-	// 	border = "border-green-300"
-	// }
+
+	if (id % 2 === 0) {
+		// bgColor = "bg-custom-orange";
+		border = "border-orange-300"
+	} else {
+		// bgColor = "bg-custom-green";
+		border = "border-green-300"
+	}
 
 	if (demo_url === null) {
 		isDisabled = " cursor-not-allowed opacity-50 bg-gray-500 text-gray-300 ";
