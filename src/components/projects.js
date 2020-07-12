@@ -19,6 +19,7 @@ function Projects() {
 							technology_array
 							title
 							image
+							order
 						}
 						recordId
 					}

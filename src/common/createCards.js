@@ -5,10 +5,10 @@ export function createCards(projects) {
 
 	let sortedPages = projects.sort(function (a, b) {
 
-		if (a.node.data.id < b.node.data.id) {
+		if (a.node.data.order < b.node.data.order) {
 			return -1;
 		}
-		if (a.node.data.id > b.node.data.id) {
+		if (a.node.data.order > b.node.data.order) {
 			return 1;
 		}
 		// names must be equal
