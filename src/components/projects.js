@@ -35,7 +35,7 @@ function Projects() {
 	return (
 		<section className='pb-12 mx-4 bg-white'>
 			<div className='container sm:mx-auto flex justify-between items-end mb-2 mt-6   '>
-				<p className='font-krubuler text-2xl uppercase mb-6 bg-orange-200 px-2'>Personal Projects</p>
+				<p className='font-Montserrat text-2xl uppercase mb-6 bg-orange-200 px-2'>Personal Projects</p>
 
 				{/* <div className='flex'>
 					<Link to={`projects`}>

@@ -24,7 +24,7 @@ function Header() {
               // src="https://res.cloudinary.com/babyhulk/image/upload/w_70,h_70,f_auto/v1589318555/hero-image/fist-01.png"
               alt="Family"
             /> */}
-            <span className="text-xl font-bold tracking-tight">
+            <span className="text-xl font-semibold tracking-tight">
               {site.siteMetadata.title}
             </span>
           </h1>
@@ -84,14 +84,14 @@ function Header() {
 
             link.type ==="internal" ?
             <Link
-              className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6 hover:text-gray-500 px-2"
+              className="font-Montserrat block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6 hover:text-gray-500 px-2"
               key={link.title}
               to={link.route}
             >
               {link.title}
             </Link>: 
 
-<a key={link.title} href={link.route} target='_blank' rel='noopener noreferrer' className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6 hover:text-gray-500 px-2">{link.title}</a>
+<a key={link.title} href={link.route} target='_blank' rel='noopener noreferrer' className="font-Montserrat font-normal block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6 hover:text-gray-500 px-2">{link.title}</a>
           ))}
         </nav>
       </div>

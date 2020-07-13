@@ -7,20 +7,20 @@ function Hero() {
 	return (
 		<div className='pt-40 pb-56 relative'>
 			<section className='text-center mt-2 sm:mt-8 relative z-50'>
-				<h1 className='text-8xl sm:text-9xl md:text-10xl  lg:text-15xl leading-none mb-0 knockout font-krubuler uppercase '>
-					<strong className='text-7xl font-black sm:hidden'>
-						Greetings
+				<h1 className='text-8xl sm:text-9xl md:text-10xl  lg:text-15xl leading-none mb-0 font-Lilita uppercase '>
+					<strong className='text-6xl font-black sm:hidden'>
+						Greetings.
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇺🇸</span> */}
 					</strong>
-					<strong className='text-7.5xl hidden sm:block md:hidden font-black'>
+					<strong className='text-6xl hidden sm:block md:hidden font-black'>
 						Waa Gwaan?
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇯🇲</span> */}
 					</strong>
-					<strong className='hidden md:block lg:hidden font-black'>
+					<strong className='text-10xl hidden md:block lg:hidden font-black'>
 						Salut!
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇻🇪</span> */}
 					</strong>
-					<strong className='text-8xl hidden lg:block xl:hidden font-black'>
+					<strong className='text-7.5xl hidden lg:block xl:hidden font-black'>
 						Kon&apos;nichiwa!
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇯🇵</span> */}
 					</strong>
@@ -29,7 +29,7 @@ function Hero() {
 
 				<h1>
 					{" "}
-					<span className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-orange-200 px-2 font-normal leading-none font-krubuler uppercase'>
+					<span className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-orange-200 px-2 font-normal leading-none font-Montserra uppercase'>
 						{" "}
 						Welcome to Kenny&apos;s World{" "}
 					</span>

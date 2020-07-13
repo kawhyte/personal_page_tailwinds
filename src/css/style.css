@@ -36,11 +36,15 @@
 
 
 
-.font-Anton{
+/* .font-Anton{
 
   font-family: 'Anton', sans-serif;
-}
-.font-Roboto{
+} */
+.font-Lilita{
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lilita One', cursive;
+}
+.font-Montserrat{
+
+  font-family: 'Montserrat', sans-serif;
 }

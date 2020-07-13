@@ -61,11 +61,11 @@ function Card({
 				</div> */}
 
 				<div className='flex flex-col items-start border-b border-gray-300 '>
-					<p className='pt-4 pl-5 text-2xl text-gray-900 font-normal'>
+					<p className='pt-4 pl-5 text-xl text-gray-900 font-normal font-Montserrat'>
 						{title}
 					</p>
 
-					<div className='px-5 pt-2 pb-5 break-words text-gray-700 text-md font-light'>
+					<div className='px-5 pt-2 pb-5 break-words text-gray-700 text-md font-light font-Montserrat'>
 						{description}
 					</div>
 
@@ -81,7 +81,7 @@ function Card({
 									target='_blank'
 									rel='noopener noreferrer'
 									className={
-										"font-light text-xs inline-block py-1 px-2 border rounded uppercase last: m-1 mr-1 " +
+										"font-Montserrat font-light text-xs inline-block py-1 px-2 border rounded uppercase last: m-1 mr-1 " +
 										border
 									}>
 									{tech}
@@ -94,7 +94,7 @@ function Card({
 				<div className='bg-gray-100'>
 					<div className='flex justify-center p-4 border-t border-gray-300 '>
 						<a href={github_url} target='_blank' rel='noopener noreferrer'>
-							<button className='mr-12 bg-white hover:bg-black text-gray-900 font-normal hover:text-white py-2 px-4 border border-gray-500  hover:border-transparent rounded'>
+							<button className='mr-12 bg-white hover:bg-black text-gray-900 font-normal font-Montserrat hover:text-white py-2 px-4 border border-gray-500  hover:border-transparent rounded'>
 								Github
 							</button>
 						</a>
@@ -107,7 +107,7 @@ function Card({
 							{" "}
 							<button
 								className={
-									" bg-white py-2 px-4 border  border-gray-500 font-normal   rounded" +
+									" bg-white py-2 px-4 border  border-gray-500 font-normal font-Montserrat  rounded" +
 									isDisabled
 								}>
 								Demo

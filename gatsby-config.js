@@ -81,12 +81,12 @@ module.exports = {
         fonts: [
         
           {
-            family: `Anton`,
+            family: `Lilita+One`,
             variants: [`400`]
           },
           {
-            family: `Roboto`,
-            variants: [`400`]
+            family: `Montserrat`,
+            variants: [`300`]
           },
         ],
       },
