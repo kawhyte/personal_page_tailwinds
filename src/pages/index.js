@@ -13,7 +13,6 @@ function IndexPage() {
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
-        author
       />
 
 {/* <Hero /> */}
