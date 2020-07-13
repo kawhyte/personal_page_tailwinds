@@ -5,24 +5,24 @@ import React from "react";
 
 function Hero() {
 	return (
-		<div className='pt-40 pb-56 relative'>
+		<div className='pt-20 pb-24 relative p'>
 			<section className='text-center mt-2 sm:mt-8 relative z-50'>
 				<h1 className='text-8xl sm:text-9xl md:text-10xl  lg:text-15xl leading-none mb-0 font-Lilita uppercase '>
 					<strong className='text-6xl font-black sm:hidden'>
 						Greetings.
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇺🇸</span> */}
 					</strong>
-					<strong className='text-6xl hidden sm:block md:hidden font-black'>
+					<strong className='text-5.5xl hidden sm:block md:hidden font-black'>
 						Waa Gwaan?
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇯🇲</span> */}
 					</strong>
-					<strong className='text-9xl hidden md:block lg:hidden font-black'>
-						Salut!
-						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇻🇪</span> */}
-					</strong>
-					<strong className='text-7xl hidden lg:block xl:hidden font-black'>
+					<strong className='text-6xl hidden md:block lg:hidden font-black'>
 						Kon&apos;nichiwa!
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇯🇵</span> */}
+					</strong>
+					<strong className='text-9xl hidden lg:block xl:hidden  font-black'>
+						Salut!
+						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇻🇪</span> */}
 					</strong>
 					<strong className='text-12xl hidden xl:block font-black'>Hello</strong>
 				</h1>
