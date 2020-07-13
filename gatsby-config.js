@@ -8,7 +8,8 @@ module.exports = {
     title: `Kenny Whyte`,
     description: `Kenny Whyte Portfolio`,
     author: `@IAmKennyWhyte`,
-    year:`2020`
+    year:`2020`,
+    image:`./src/images/preview.png`
   },
   plugins: [
     `gatsby-plugin-eslint`,
