@@ -23,6 +23,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
 
  console.log("metaImage ", metaImage)
  console.log("metaDescription ", metaDescription)
+ console.log("site.siteMetadata.image ", site.siteMetadata.author)
 
   return (
     <Helmet
@@ -39,6 +40,10 @@ function SEO({ description, lang, meta, keywords, title, image }) {
           content: metaImage,
         },
         {
+          name: `author`,
+          content: site.siteMetadata.author,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -49,6 +54,10 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         {
           property: `og:image`,
           content: metaImage,
+        },
+        {
+          property: `og:author`,
+          content: site.siteMetadata.author,
         },
         {
           property: `og:type`,
