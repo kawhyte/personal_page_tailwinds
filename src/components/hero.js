@@ -16,20 +16,20 @@ function Hero() {
 						Waa Gwaan?
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇯🇲</span> */}
 					</strong>
-					<strong className='text-10xl hidden md:block lg:hidden font-black'>
+					<strong className='text-9xl hidden md:block lg:hidden font-black'>
 						Salut!
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇻🇪</span> */}
 					</strong>
-					<strong className='text-7.5xl hidden lg:block xl:hidden font-black'>
+					<strong className='text-7xl hidden lg:block xl:hidden font-black'>
 						Kon&apos;nichiwa!
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇯🇵</span> */}
 					</strong>
-					<strong className=' hidden xl:block font-black'>Hello</strong>
+					<strong className='text-12xl hidden xl:block font-black'>Hello</strong>
 				</h1>
 
 				<h1>
 					{" "}
-					<span className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-orange-200 px-2 font-normal leading-none font-Montserra uppercase'>
+					<span className='text-xl sm:text-2xl md:text-3xl lg:text-4xl bg-orange-200 px-2 font-normal leading-none font-Montserra uppercase'>
 						{" "}
 						Welcome to Kenny&apos;s World{" "}
 					</span>
