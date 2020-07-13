@@ -21,9 +21,6 @@ function SEO({ description, lang, meta, keywords, title, image }) {
   const metaDescription = description || site.siteMetadata.description;
   const metaImage = image || site.siteMetadata.image;
 
- console.log("metaImage ", metaImage)
- console.log("metaDescription ", metaDescription)
- console.log("site.siteMetadata.image ", site.siteMetadata.author)
 
   return (
     <Helmet

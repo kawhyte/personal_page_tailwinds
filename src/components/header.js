@@ -60,16 +60,16 @@ function Header() {
             title: `CodePen`,
             type: `external`
           },
-          {
-            route: `https://github.com/kawhyte`,
-            title: `Github`,
-            type: `external`
-          },
-            // {
-            //   route: `/about`,
-            //   title: `About`,
-            //   type: `internal`
-            // },
+          // {
+          //   route: `https://github.com/kawhyte`,
+          //   title: `Github`,
+          //   type: `external`
+          // },
+            {
+              route: `/all-projects`,
+              title: `All Projects`,
+              type: `internal`
+            },
             // {
             //   route: `/contact`,
             //   title: `Contact`,

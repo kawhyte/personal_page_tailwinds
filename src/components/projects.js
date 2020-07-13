@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery} from "gatsby";
 import { createCards } from "../common/createCards";
-// import arrow from "../images/icons/icons8-forward-small.png";
+import Label  from "../components/label"
+import PropTypes from "prop-types";
 
-function Projects() {
+
+function Projects({text, showMore, amountOfProjectsToShow}) {
 	const data = useStaticQuery(graphql`
 		{
 			allAirtable {
@@ -32,33 +34,26 @@ function Projects() {
 
 	let projects = createCards(state);
 
+	const itemsToRender = projects.slice(0, amountOfProjectsToShow)
+
 	return (
 		<section className='pb-12 mx-4 bg-white'>
 			<div className='container sm:mx-auto flex justify-between items-end mb-2 mt-6   '>
-				<p className='font-Montserrat text-2xl uppercase mb-6 bg-orange-200 px-2'>Personal Projects</p>
-
-				{/* <div className='flex'>
-					<Link to={`projects`}>
-						<p className='text-sm text-blue-600 pb-1 mb-6 '>
-							View All Projects
-						</p>
-					</Link>
-					<Link to={`projects`}>
-						<img src={arrow} width='20' height='1' alt='arrow' />
-					</Link>
-				</div> */}
-
-				{/* <p className='text-normal text-md'>
-					Lorem Ipsum is simply dummy text of the printing and typesetting
-					industry. Lorem Ipsum has been the industry standard dummy text ever
-					since the 1500s
-				</p> */}
+				<Label text ={text} showMore={showMore} />
 			</div>
 			<div className='mb-16 max-w-6xl m-2 px-3 gap-6  container mx-auto grid grid-cols-1  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3'>
-				{projects}
+				{itemsToRender}
 			</div>
 		</section>
 	);
 }
+
+Projects.propTypes = {
+	text: PropTypes.string.isRequired,
+	showMore: PropTypes.bool.isRequired,
+	amountOfProjectsToShow: PropTypes.number.isRequired,
+
+};
+
 
 export default Projects;
