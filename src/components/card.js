@@ -107,7 +107,7 @@ function Card({
 							{" "}
 							<button
 								className={
-									" bg-white py-2 px-4 border  border-gray-500 font-normal font-Montserrat  rounded" +
+									" bg-white py-2 px-4 border  border-gray-500 font-normal font-Montserrat  rounded text-gray-900" +
 									isDisabled
 								}>
 								Demo
