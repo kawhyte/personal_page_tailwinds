@@ -104,7 +104,6 @@ function Card({
 							</button>
 						</a> */}
 						<a href={demo_url} target='_blank' rel='noopener noreferrer'>
-							{" "}
 							<button
 								className={
 									" bg-white py-2 px-4 border  border-gray-500 font-normal font-Montserrat  rounded text-gray-900" +
