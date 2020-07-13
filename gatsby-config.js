@@ -9,7 +9,7 @@ module.exports = {
     description: `Kenny Whyte Portfolio`,
     author: `@IAmKennyWhyte`,
     year:`2020`,
-    image:`./src/images/preview.png`
+    image:`https://res.cloudinary.com/babyhulk/image/upload/v1594668329/hero-image/preview.png`
   },
   plugins: [
     `gatsby-plugin-eslint`,
