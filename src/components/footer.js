@@ -4,10 +4,10 @@ function Footer() {
     return (
         <footer className="bg-orange-200">
         <nav className="flex justify-between max-w-6xl p-4 mx-auto text-sm md:p-8">
-          <p className="text-black">
+          <p className="text-black font-Montserrat">
             Created by{` `}
             <a
-              className="font-bold no-underline"
+              className="font-bold font-Montserrat no-underline"
               href="/"
               target="_blank"
               rel="noopener noreferrer"
@@ -18,7 +18,7 @@ function Footer() {
 
           <p>
             <a
-              className="font-bold text-black no-underline"
+              className="font-bold text-blue-500 no-underline font-Montserrat hover:text-indigo-900"
               href="https://github.com/kawhyte"
               target="_blank"
               rel="noopener noreferrer"
@@ -27,13 +27,13 @@ function Footer() {
             </a>
           </p>
 
-          <div className="text-sm py-1 text-black">
+          <div className="text-sm py-1 text-black font-Montserrat">
               <span className="pr-2">Illustrations from</span>
         
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                className="  hover:text-indigo-500"
+                className=" text-blue-500 hover:text-indigo-900"
                 href="https://icons8.com/"
               >
                 icons8
