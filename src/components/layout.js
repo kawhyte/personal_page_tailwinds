@@ -17,7 +17,7 @@ function Layout({ children }) {
 				{children}
 			</main>
 			<Section />
-			<Projects text={"FEATURED PERSONAL PROJECTS"} showMore={true} amountOfProjectsToShow={6}/>
+			<Projects text={"PERSONAL PROJECTS"} showMore={true} amountOfProjectsToShow={6}/>
 
 			<Footer />
 		</div>

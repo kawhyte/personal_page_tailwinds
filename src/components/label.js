@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 function Label({text, showMore}) {
 	return (
 		<>
-			<p className='font-Montserrat text-2xl uppercase mb-6 bg-orange-200 px-2'>
+			<p className='font-Montserrat sm:text-xl lg:text-2xl uppercase mb-6 bg-orange-200 px-2'>
 				{text}
 			</p>
 			{showMore == true ? (
