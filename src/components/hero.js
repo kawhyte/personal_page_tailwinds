@@ -9,7 +9,7 @@ function Hero() {
 			<section className='text-center mt-2 sm:mt-8 relative z-50'>
 				<h1 className='text-8xl sm:text-9xl md:text-10xl  lg:text-15xl leading-none mb-0  uppercase '>
 					<strong className='text-6xl font-black sm:hidden'>
-						Greetings.
+						Greetings
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇺🇸</span> */}
 					</strong>
 					<strong className='text-5.5xl hidden sm:block md:hidden font-black'>
@@ -24,12 +24,12 @@ function Hero() {
 						Salut!
 						{/* <span className="tracking-normal rounded-full text-white  uppercase  py-1 text-lg mr-2">🇻🇪</span> */}
 					</strong>
-					<strong className='text-12xl hidden xl:block font-black'>Hello.</strong>
+					<strong className='text-11xl hidden xl:block font-black'>Hello</strong>
 				</h1>
 
 				<h1>
 					{" "}
-					<span className='text-xl sm:text-2xl md:text-3xl lg:text-5xl bg-orange-200 px-2 font-normal leading-none font-Montserra uppercase'>
+					<span className='text-2xl sm:text-2xl md:text-3xl lg:text-4xl bg-orange-200 px-2 font-normal leading-none font-Montserra uppercase'>
 						{" "}
 						Welcome to Kenny&apos;s World{" "}
 					</span>
