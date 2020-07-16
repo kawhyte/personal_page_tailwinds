@@ -51,6 +51,11 @@ function Header() {
         >
           {[
             {
+              route: `/all-projects`,
+              title: `Projects`,
+              type: `internal`
+            },
+            {
               route: `https://dev.to/kawhyte`,
               title: `Dev.to`,
               type: `external`
@@ -65,11 +70,6 @@ function Header() {
           //   title: `Github`,
           //   type: `external`
           // },
-            {
-              route: `/all-projects`,
-              title: `Projects`,
-              type: `internal`
-            },
             // {
             //   route: `/contact`,
             //   title: `Contact`,
