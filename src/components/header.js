@@ -67,7 +67,7 @@ function Header() {
           // },
             {
               route: `/all-projects`,
-              title: `All Projects`,
+              title: `Projects`,
               type: `internal`
             },
             // {
