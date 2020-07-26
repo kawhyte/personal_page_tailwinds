@@ -117,6 +117,7 @@ function Hero() {
 			</section>
 			<svg
 				className='absolute left-0 top-0 w-full h-full z-20'
+				id="bg"
 				xmlns='http://www.w3.org/2000/svg'
 				viewBox='0 0 645.55 419.74'
 				preserveAspectRatio='xMinYMid slice'>
