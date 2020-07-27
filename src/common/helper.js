@@ -89,34 +89,34 @@ const iconList = {
           icon:
             "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595878693/Tech_icons/dotnet.webp"
         },
-        LA: {
-          name: "Louisiana",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Louisiana.svg"
+        MongoDB: {
+          name: "MongoDB",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595879195/Tech_icons/mongodb.webp"
         },
-        ME: {
-          name: "Maine",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Maine.svg"
+        WordPress: {
+          name: "Wordpress",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595879487/Tech_icons/wordpress.webp"
         },
-        MD: {
-          name: "Maryland",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Maryland.svg"
+        Photoshop: {
+          name: "Photoshop",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595879364/Tech_icons/photoshop.webp"
         },
-        MA: {
-          name: "Massachusetts",
-          flag:
+        Arduino: {
+          name: "Arduino",
+          icon:
             "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Massachusetts.svg"
         },
-        MI: {
-          name: "Michigan",
-          flag:
+        RFID: {
+          name: "RFID",
+          icon:
             "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Michigan.svg"
         },
-        MN: {
-          name: "Minnesota",
-          flag:
+        SQL: {
+          name: "SQL",
+          icon:
             "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Minnesota.svg"
         },
         MS: {

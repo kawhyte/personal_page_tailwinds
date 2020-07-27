@@ -86,7 +86,7 @@ function Card({
 							return (
 								<div key={i} className={"flex flex-col items-end " + border}>
 									<img
-										alt='tech icon'
+										alt='technology icon'
 										className='mx-auto h-10'
 										src={
 											iconList[technology_array[i]]
