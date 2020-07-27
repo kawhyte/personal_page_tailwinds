@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { iconList, status } from "../common/helper";
+import { iconList } from "../common/helper";
 import defaultImg from "../images/defaultIcon.png";
 // import html from "../images/html.png";
 // import catAndHumanIllustration from "../images/car.png";
@@ -17,11 +17,11 @@ function Card({
 	image,
 	id,
 }) {
-	console.log("TECH ---", technology_array[0]);
-	if (iconList[technology_array[0]]) {
-		console.log("TECH array ", iconList[technology_array[0]].flag);
+	console.log("TECH ---", technology_array[2]);
+	if (iconList[technology_array[2]]) {
+		console.log("TECH array ", iconList[technology_array[2]].icon);
 	}
-	console.log("TECH ", status);
+
 
 	if (id % 2 === 0) {
 		// bgColor = "bg-custom-orange";

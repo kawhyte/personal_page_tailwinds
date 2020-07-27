@@ -2,7 +2,7 @@ const iconList = {
         HTML: {
           name: "HTML",
           icon:
-            "https://res.cloudinary.com/babyhulk/image/upload/q_auto/v1595872278/Tech_icons/html.webp"
+            "https://res.cloudinary.com/babyhulk/image/upload/q_auto,w_64/v1595872278/Tech_icons/html.webp"
         },
         NodeJS: {
           name: "Node Js",
@@ -19,75 +19,75 @@ const iconList = {
           icon:
             "https://res.cloudinary.com/babyhulk/image/upload/c_scale,e_bgremoval,q_auto,w_64/v1595874918/Tech_icons/express.webp"
         },
-        CA: {
-          name: "California",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505245/flags/Flag_of_California.svg"
+        Firebase: {
+          name: "Firebase",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595875181/Tech_icons/firebase.webp"
         },
-        CO: {
-          name: "Colorado",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505244/flags/Flag_of_Colorado.svg"
+        Heroku: {
+          name: "Heroku",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595875929/Tech_icons/heroku.webp"
         },
-        CT: {
-          name: "Connecticut",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505246/flags/Flag_of_Connecticut.svg"
+        React: {
+          name: "React",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_60/v1595876306/Tech_icons/icons8-react-200.webp"
         },
-        DE: {
-          name: "Delaware",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505247/flags/Flag_of_Delaware.svg"
+        Gatsby: {
+          name: "Gatsby",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595876490/Tech_icons/gatsby.webp"
         },
-        DC: {
-          name: "D.C.",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505261/flags/Flag_of_District%20of%20Columbia.svg"
+        Graphql: {
+          name: "Graphql",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595876634/Tech_icons/graphql.webp"
         },
-        FL: {
-          name: "Florida",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505247/flags/Flag_of_Florida.svg"
+        TailwindCSS: {
+          name: "TailwindCSS",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595877071/Tech_icons/tailwindcss.webp"
         },
-        GA: {
-          name: "Georgia",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505246/flags/Flag_of_Georgia.svg"
+        Airtable: {
+          name: "Airtable",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,e_bgremoval,q_auto,w_64/v1595877200/Tech_icons/airtable.webp"
         },
-        HI: {
-          name: "Hawaii",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505246/flags/Flag_of_Hawaii.svg"
+        Netlify: {
+          name: "Netlify",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,e_bgremoval,q_auto,w_64/v1595877398/Tech_icons/netlify.webp"
         },
-        ID: {
-          name: "Idaho",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505247/flags/Flag_of_Idaho.svg"
+        CSS: {
+          name: "CSS",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595877619/Tech_icons/css.webp"
         },
-        IL: {
-          name: "Illinois",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Illinois.svg"
+        Rest: {
+          name: "RestAPI",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595877908/Tech_icons/restapi.webp"
         },
-        IN: {
-          name: "Indiana",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Indiana.svg"
+        Angular: {
+          name: "Angular",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595878148/Tech_icons/angular.webp"
         },
-        IA: {
-          name: "Iowa",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Iowa.svg"
+        Typescript: {
+          name: "Typescript",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595878251/Tech_icons/typescript.webp"
         },
-        KS: {
-          name: "Kansas",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Kansas.svg"
+        CSharp: {
+          name: "CSharp",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595878499/Tech_icons/c-sharp.webp"
         },
-        KY: {
-          name: "Kentucky",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Kentucky.svg"
+        dotNET: {
+          name: "dotNet",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595878693/Tech_icons/dotnet.webp"
         },
         LA: {
           name: "Louisiana",
@@ -257,146 +257,9 @@ const iconList = {
         ALL: { name: "View All States", flag: "Flag_of_Wyoming.svg" }
       };
 
-      let status = {
-        "bill:introduced": {
-          name: "Introduced or prefiled",
-          color: "bg-blue",
-          importance: 0
-        },
-        "bill:passed": {
-          name: "Bill has passed a chamber",
-          color: "bg-yellow",
-          importance: 1
-        },
-        "bill:failed": {
-          name: "Failed to pass a chamber",
-          color: "bg-red",
-          importance: 1
-        },
-        "bill:withdrawn": {
-          name: "Withdrawn from consideration",
-          color: "bg-red",
-          importance: 1
-        },
-        "bill:veto_override:passed": {
-          name: "Chamber attempted a veto override and succeeded",
-          color: "bg-green",
-          importance: 1
-        },
-        "bill:veto_override:failed": {
-          name: "Chamber attempted a veto override and failed",
-          color: "bg-red",
-          importance: 1
-        },
-        "bill:reading:1": {
-          name: "Bill has undergone its first reading",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "bill:reading:2": {
-          name: "Bill has undergone its second reading",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "bill:reading:3": {
-          name: "Bill has undergone its third (or final) reading",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "bill:filed": {
-          name: "Bill has been filed",
-          color: "bg-yellow",
-          importance: 1
-        },
-        "bill:substituted": {
-          name: "Bill has been replaced with a substituted wholesale",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "governor:received": {
-          name: "Bill has been transmitted to the governor for consideration",
-          color: "bg-yellow",
-          importance: 1
-        },
-        "governor:signed": {
-          name: "Bill was signed into law by the governor",
-          color: "bg-green",
-          importance: 1
-        },
-        "governor:vetoed": {
-          name: "Bill has been vetoed by the governor",
-          color: "bg-red",
-          importance: 1
-        },
-        "governor:vetoed:line-item": {
-          name: "Governor has issued a partial veto",
-          color: "bg-light-yellow",
-          importance: 1
-        },
-        "amendment:introduced": {
-          name: "An amendment has been offered on the bill",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "amendment:passed": {
-          name: "The bill has been amended",
-          color: "bg-light-yellow",
-          importance: 0
-        },
-        "amendment:failed": {
-          name: "An offered amendment has failed",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "amendment:amended": {
-          name: "An offered amendment has been amended",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "amendment:withdrawn": {
-          name: "An offered amendment has been withdrawn",
-          color: "bg-pink",
-          importance: 0
-        },
-        "amendment:tabled": {
-          name: "An amendment has been ‘laid on the table’",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "committee:referred": {
-          name: "Bill referred to a committee",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "committee:passed": {
-          name: "Bill has been passed out of a committee",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "committee:passed:favorable": {
-          name: "Bill has been passed out of a committee with a favorable report",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "committee:passed:unfavorable": {
-          name: "Bill has been passed out of a committee with an unfavorable report",
-          color: "bg-yellow",
-          importance: 0
-        },
-        "committee:failed": {
-          name: "Bill has failed to make it out of committee",
-          color: "bg-red",
-          importance: 0
-        },
       
-        null: {
-          name: "(Pending) View state website",
-          color: "bg-light-yellow",
-          importance: 0
-        }
-      };
 
 
 
 
-module.exports = {iconList, status};
+module.exports = {iconList};
