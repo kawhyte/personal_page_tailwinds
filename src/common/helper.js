@@ -44,8 +44,8 @@ const iconList = {
           icon:
             "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595876634/Tech_icons/graphql.webp"
         },
-        TailwindCSS: {
-          name: "TailwindCSS",
+        Tailwind: {
+          name: "Tailwind",
           icon:
             "https://res.cloudinary.com/babyhulk/image/upload/c_scale,e_bgremoval,q_auto,w_64/v1595877071/Tech_icons/tailwindcss.webp"
         },
