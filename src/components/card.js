@@ -21,7 +21,7 @@ function Card({
 	}
 
 	if (demo_url === null) {
-		isDisabled = " cursor-not-allowed opacity-50 bg-gray-500 text-gray-300 ";
+		isDisabled = "cursor-not-allowed opacity-50 bg-gray-500 text-gray-300 ";
 	} else {
 		isDisabled =
 			"  text-gray-900 hover:bg-black hover:text-white hover:border-transparent ";
@@ -47,13 +47,14 @@ function Card({
 					</div>
 				</div>
 
-				<div className='flex justify-center leading-none px-1 md:px-3'>
-					<div className='flex flex-wrap my-2 '>
+				<div className='flex justify-center leading-none md:px-1'>
+					<div className='flex flex-wrap  my-2 '>
 						{technology_array.map((tech, i) => {
 							return (
 								<div
 									key={i}
-									className={"flex flex-col justify-between pt-2  " + border}>
+									className={"flex  flex-col  my-2 mx-2 " + border}>
+									<div> 
 									<img
 										alt='technology icon'
 										className='mx-auto h-10 '
@@ -63,11 +64,12 @@ function Card({
 												: defaultImg
 										}
 									/>
+									</div>
 									<span
 										target='_blank'
 										rel='noopener noreferrer'
 										className={
-											"font-Montserrat font-light text-xs inline-block pb-1 px-2 uppercase last: m-1 mr-1 " +
+											"font-Montserrat font-light text-xs inline-block uppercase last: m-1 mr-1 " +
 											border
 										}>
 										{tech}
