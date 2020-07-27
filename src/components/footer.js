@@ -28,7 +28,7 @@ function Footer() {
           </p> */}
 
           <div className="text-xs sm:text-sm py-1 px-1 text-black font-Montserrat">
-              <span className="pr-2">Illustrations from</span>
+              <span className="pr-2">Illustrations and Icons from</span>
         
               <a
                 target="_blank"
