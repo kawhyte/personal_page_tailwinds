@@ -1,5 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {iconList, status} from "../common/helper";
+import defaultImg from "../images/space.webp";
+// import html from "../images/html.png";
 // import catAndHumanIllustration from "../images/car.png";
 // let bgColor = "";
 let border = "";
@@ -14,6 +17,13 @@ function Card({
 	image,
 	id
 }) {
+
+	console.log("TECH ---",technology_array[0])
+	if (iconList[technology_array[0]]) {
+		
+		console.log("TECH array ",iconList[technology_array[0]].flag)
+	}
+	console.log("TECH ",status)
 
 	if (id % 2 === 0) {
 		// bgColor = "bg-custom-orange";
@@ -72,20 +82,31 @@ function Card({
 					{/* <div className='px-5 pt-2 pb-3 break-words text-gray-900 font-sans text-md'>{technology}</div> */}
 				</div>
 
-				<div className='flex items-center justify-between leading-none py-2 px-1 md:px-3 '>
-					<div className='flex flex-wrap items-center w-full mt-1 mb-2'>
+				<div className='flex items-end justify-between leading-none py-2 px-1 md:px-3 '>
+					<div className='flex flex-wrap  w-full mt-1 mb-2'>
 						{technology_array.map((tech, i) => {
 							return (
+								<div key={i} className={"flex flex-col items-end " +
+								border}>
+								<img
+									alt='Technology icon'
+									className='mx-auto w-10 h-10'
+									src= {iconList[technology_array[i]] ? iconList[technology_array[i]].icon: defaultImg}
+								/>
 								<span
-									key={i}
+									
 									target='_blank'
 									rel='noopener noreferrer'
 									className={
-										"font-Montserrat font-light text-xs inline-block py-1 px-2 border rounded uppercase last: m-1 mr-1 " +
+										"font-Montserrat font-light text-xs inline-block pb-1 px-2 uppercase last: m-1 mr-1 " +
 										border
 									}>
+
+
+
 									{tech}
 								</span>
+								</div>
 							);
 						})}
 					</div>
