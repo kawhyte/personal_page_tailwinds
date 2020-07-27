@@ -47,7 +47,7 @@ const iconList = {
         TailwindCSS: {
           name: "TailwindCSS",
           icon:
-            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595877071/Tech_icons/tailwindcss.webp"
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,e_bgremoval,q_auto,w_64/v1595877071/Tech_icons/tailwindcss.webp"
         },
         Airtable: {
           name: "Airtable",

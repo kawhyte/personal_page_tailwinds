@@ -80,14 +80,14 @@ function Card({
 					{/* <div className='px-5 pt-2 pb-3 break-words text-gray-900 font-sans text-md'>{technology}</div> */}
 				</div>
 
-				<div className='flex items-end justify-between leading-none py-2 px-1 md:px-3 '>
-					<div className='flex flex-wrap  w-full mt-1 mb-2'>
+				<div className='flex  leading-none px-1 md:px-3'>
+					<div className='flex flex-wrap justify-start  my-2 '>
 						{technology_array.map((tech, i) => {
 							return (
-								<div key={i} className={"flex flex-col items-end " + border}>
+								<div key={i} className={"flex flex-col items-end pt-2 " + border}>
 									<img
 										alt='technology icon'
-										className='mx-auto h-10'
+										className='mx-auto h-10 '
 										src={
 											iconList[technology_array[i]]
 												? iconList[technology_array[i]].icon
