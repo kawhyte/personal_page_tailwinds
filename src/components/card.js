@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {iconList, status} from "../common/helper";
-import defaultImg from "../images/space.webp";
+import { iconList, status } from "../common/helper";
+import defaultImg from "../images/defaultIcon.png";
 // import html from "../images/html.png";
 // import catAndHumanIllustration from "../images/car.png";
 // let bgColor = "";
@@ -15,22 +15,20 @@ function Card({
 	github_url,
 	demo_url,
 	image,
-	id
+	id,
 }) {
-
-	console.log("TECH ---",technology_array[0])
+	console.log("TECH ---", technology_array[0]);
 	if (iconList[technology_array[0]]) {
-		
-		console.log("TECH array ",iconList[technology_array[0]].flag)
+		console.log("TECH array ", iconList[technology_array[0]].flag);
 	}
-	console.log("TECH ",status)
+	console.log("TECH ", status);
 
 	if (id % 2 === 0) {
 		// bgColor = "bg-custom-orange";
-		border = "border-orange-300"
+		border = "border-orange-300";
 	} else {
 		// bgColor = "bg-custom-green";
-		border = "border-green-300"
+		border = "border-green-300";
 	}
 
 	if (demo_url === null) {
@@ -86,26 +84,25 @@ function Card({
 					<div className='flex flex-wrap  w-full mt-1 mb-2'>
 						{technology_array.map((tech, i) => {
 							return (
-								<div key={i} className={"flex flex-col items-end " +
-								border}>
-								<img
-									alt='Technology icon'
-									className='mx-auto w-10 h-10'
-									src= {iconList[technology_array[i]] ? iconList[technology_array[i]].icon: defaultImg}
-								/>
-								<span
-									
-									target='_blank'
-									rel='noopener noreferrer'
-									className={
-										"font-Montserrat font-light text-xs inline-block pb-1 px-2 uppercase last: m-1 mr-1 " +
-										border
-									}>
-
-
-
-									{tech}
-								</span>
+								<div key={i} className={"flex flex-col items-end " + border}>
+									<img
+										alt='tech icon'
+										className='mx-auto h-10'
+										src={
+											iconList[technology_array[i]]
+												? iconList[technology_array[i]].icon
+												: defaultImg
+										}
+									/>
+									<span
+										target='_blank'
+										rel='noopener noreferrer'
+										className={
+											"font-Montserrat font-light text-xs inline-block pb-1 px-2 uppercase last: m-1 mr-1 " +
+											border
+										}>
+										{tech}
+									</span>
 								</div>
 							);
 						})}

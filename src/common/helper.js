@@ -2,22 +2,22 @@ const iconList = {
         HTML: {
           name: "HTML",
           icon:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1595872278/Tech_icons/html.png"
+            "https://res.cloudinary.com/babyhulk/image/upload/q_auto/v1595872278/Tech_icons/html.webp"
         },
         NodeJS: {
           name: "Node Js",
           icon:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1595872976/Tech_icons/node.js.png"
+            "https://res.cloudinary.com/babyhulk/image/upload/q_auto/v1595872976/Tech_icons/node.js.webp"
         },
         Javascript: {
           name: "Javascript",
           icon:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1595873726/Tech_icons/Javascript.png"
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595873726/Tech_icons/Javascript.webp"
         },
-        AR: {
-          name: "Arkansas",
-          flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505244/flags/Flag_of_Arkansas.svg"
+        Express: {
+          name: "Express",
+          icon:
+            "https://res.cloudinary.com/babyhulk/image/upload/c_scale,e_bgremoval,q_auto,w_64/v1595874918/Tech_icons/express.webp"
         },
         CA: {
           name: "California",
