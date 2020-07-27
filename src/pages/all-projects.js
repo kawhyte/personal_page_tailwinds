@@ -12,7 +12,11 @@ function projects() {
 				title='All Projects'
 			/>
 			<Header />
-			<Projects text={"ALL PERSONAL PROJECTS"} showMore={false} amountOfProjectsToShow={100} />
+			<Projects
+				text={"ALL PERSONAL PROJECTS"}
+				showMore={false}
+				amountOfProjectsToShow={100}
+			/>
 			<Footer />
 		</>
 	);

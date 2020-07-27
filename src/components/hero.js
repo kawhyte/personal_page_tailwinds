@@ -1,7 +1,4 @@
 import React from "react";
-// import catAndHumanIllustration from "../images/flame-teamwork.png";
-// import moonManIllustration from "../images/flame-759.png";
-// import planetIllustration from "../images/open-peeps.png";
 
 function Hero() {
 	return (
@@ -36,9 +33,8 @@ function Hero() {
 
 					<div className='container mx-auto flex justify-center items-end py-3 md:py-4'>
 						<svg
-						className="fill-current md:pb-0 text-black inline-block  w-8/12 sm:w-3/5 lg:w-6/12"
-							id='hello' 
-							
+							className='fill-current md:pb-0 text-black inline-block  w-8/12 sm:w-3/5 lg:w-6/12'
+							id='hello'
 							data-name='Layer 1'
 							xmlns='http://www.w3.org/2000/svg'
 							viewBox='0 0 815.76 176.48'>
@@ -93,31 +89,10 @@ function Hero() {
 						Welcome to Kenny&apos;s World{" "}
 					</span>
 				</h1>
-
-				{/* <p className=' mb-0 text-4xl md:text-6xl font-k pr-3 leading-none relative z-10'>
-				Hi there,
-			</p> */}
-				{/* <h2 className='inline-block mb-12 text-4xl md:text-6xl font-k leading-none relative z-10'>
-				Welcome to Kenny&#39;s World!
-			</h2> */}
-
-				{/* <p className='leading-loose sm:text-sm mb-10 md:text-lg '>
-				Software Engineer | Observational Astronomer | Nintendo Enthusiast {` `}
-			</p> */}
-
-				{/* <div className='flex justify-between relative z-10'>
-
-				<img
-					alt='Cat and human sitting on a couch'
-					className='block  mx-auto mb-8 h-64 md:h-auto'
-					src={planetIllustration}
-				/>
-
-			</div> */}
 			</section>
 			<svg
 				className='absolute left-0 top-0 w-full h-full z-20'
-				id="bg"
+				id='bg'
 				xmlns='http://www.w3.org/2000/svg'
 				viewBox='0 0 645.55 419.74'
 				preserveAspectRatio='xMinYMid slice'>

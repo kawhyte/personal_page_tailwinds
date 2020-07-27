@@ -3,8 +3,7 @@ import arrow from "../images/icons/icons8-forward-small.png";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 
-
-function Label({text, showMore}) {
+function Label({ text, showMore }) {
 	return (
 		<>
 			<p className='font-Montserrat sm:text-xl lg:text-2xl uppercase mb-6 bg-orange-200 px-2'>
@@ -30,7 +29,6 @@ function Label({text, showMore}) {
 Label.propTypes = {
 	text: PropTypes.string.isRequired,
 	showMore: PropTypes.bool.isRequired,
-
 };
 
 export default Label;

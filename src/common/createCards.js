@@ -2,9 +2,7 @@ import React from "react";
 import Card from "../components/card";
 
 export function createCards(projects) {
-
 	let sortedPages = projects.sort(function (a, b) {
-
 		if (a.node.data.order < b.node.data.order) {
 			return -1;
 		}
