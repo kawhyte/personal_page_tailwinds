@@ -1,5 +1,5 @@
 const iconList = {
-	HTML: {
+	HTML5: {
 		name: "HTML",
 		icon:
 			"https://res.cloudinary.com/babyhulk/image/upload/q_auto,w_64/v1595872278/Tech_icons/html.webp",
@@ -59,7 +59,7 @@ const iconList = {
 		icon:
 			"https://res.cloudinary.com/babyhulk/image/upload/c_scale,e_bgremoval,q_auto,w_64/v1595877398/Tech_icons/netlify.webp",
 	},
-	CSS: {
+	CSS3: {
 		name: "CSS",
 		icon:
 			"https://res.cloudinary.com/babyhulk/image/upload/c_scale,q_auto,w_64/v1595877619/Tech_icons/css.webp",
