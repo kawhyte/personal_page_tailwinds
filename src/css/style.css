@@ -50,7 +50,7 @@
 
 } */
 
-#hello path:nth-child(2){
+#hello path:nth-child(1){
 
   -webkit-animation: text-flicker-in-glow 4s linear both;
   animation: text-flicker-in-glow 4s linear both;
@@ -58,8 +58,8 @@
 }
 #hello path:nth-child(3){
 
-  -webkit-animation: text-flicker-in-glow 2s linear both;
-  animation: text-flicker-in-glow 2s linear both;
+  -webkit-animation: text-flicker-in-glow 1s linear both;
+  animation: text-flicker-in-glow 1s linear both;
 
 }
 #hello path:nth-child(4){
@@ -68,10 +68,34 @@
   animation: text-flicker-in-glow 3s linear both;
 
 }
-#hello path:nth-child(5){
+#hello path:nth-child(10){
 
   -webkit-animation: text-flicker-in-glow 5s linear both;
   animation: text-flicker-in-glow 5s linear both;
+
+}
+#hello path:nth-child(20){
+
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker-in-glow 4s linear both;
+
+}
+#hello path:nth-child(27){
+
+  -webkit-animation: text-flicker-in-glow 6s linear both;
+  animation: text-flicker-in-glow 6s linear both;
+
+}
+#hello path:nth-child(40){
+
+  -webkit-animation: text-flicker-in-glow 5s linear both;
+  animation: text-flicker-in-glow 5s linear both;
+
+}
+#hello path:nth-child(47){
+
+  -webkit-animation: text-flicker-in-glow 2s linear both;
+  animation: text-flicker-in-glow 2s linear both;
 
 }
 

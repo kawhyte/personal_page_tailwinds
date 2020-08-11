@@ -51,19 +51,17 @@ function Card({
 					<div className='flex flex-wrap  my-2 '>
 						{technology_array.map((tech, i) => {
 							return (
-								<div
-									key={i}
-									className={"flex  flex-col  my-2 mx-2 " + border}>
-									<div> 
-									<img
-										alt='technology icon'
-										className='mx-auto h-10 '
-										src={
-											iconList[technology_array[i]]
-												? iconList[technology_array[i]].icon
-												: defaultImg
-										}
-									/>
+								<div key={i} className={"flex  flex-col  my-2 mx-2 " + border}>
+									<div>
+										<img
+											alt='technology icon'
+											className='mx-auto h-10 '
+											src={
+												iconList[technology_array[i]]
+													? iconList[technology_array[i]].icon
+													: defaultImg
+											}
+										/>
 									</div>
 									<span
 										target='_blank'
