@@ -5,7 +5,7 @@
   "author": "Kenny Whyte  <kennywhyte.com>",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby": "2.23.22",
+    "gatsby": "4.25.7",
     "gatsby-plugin-manifest": "^2.4.18",
     "gatsby-plugin-offline": "3.2.16",
     "gatsby-plugin-postcss": "2.3.9",
